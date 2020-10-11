@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial !important;
+  font-size: 27px !important;
+}
+
+header {
+  background-color: #ffe4c4;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #a28d50;
+  margin-top: 15px !important;
+}
+
+.input-groups {
+  padding: 5px;
+  margin: 5px;
+}
+
+.btn-light {
+  color: #a28d50 !important;
+  background-color: #fffcf2 !important;
+  border-color: #ffffff !important;
+  font-weight: 600 !important;
+  padding: 5px 17px !important;
+}
+
+.btn-light:focus {
+  box-shadow: 0 0 0 0.1rem #a28d50 !important;
+}
+
+.task-manager-list-item {
+  display: flex;
+  align-items: baseline;
+  color: #7a621f;
+}
+
+.to-do-header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.to-do-header__btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-control {
+  border: 1px solid #ffffff !important;
+  color: #7a621f !important;
+  font-size: 25px !important;
+}
+
+.form-control:focus {
+  color: #7a621f !important;
+  background-color: #fff !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.1rem #a28d50 !important;
+}
+
+.task-manager-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.task-manager-list-item__btn-complete {
+  margin: 5px;
+}
+
+.task-manager-list-item__btn-delete {
+  margin: 5px;
+}
+
+.task-manager-list-item__task-name {
+  margin: 5px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #b45755 !important;
+  border-color: #b45755 !important;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #b48955 !important;
+  border-color: #b48955 !important;
+}
